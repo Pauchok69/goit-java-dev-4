@@ -9,5 +9,8 @@ public class Main {
 
         System.out.println("databaseQueryService.findLongestProject() = " + databaseQueryService.findLongestProject());
         System.out.println("databaseQueryService.findMaxProjectsClient() = " + databaseQueryService.findMaxProjectsClient());
+        System.out.println("databaseQueryService.findMaxSalaryWorker() = " + databaseQueryService.findMaxSalaryWorker());
+        System.out.println("databaseQueryService.findYoungestAndEldestWorkers() = " + databaseQueryService.findYoungestAndEldestWorkers());
+        System.out.println("databaseQueryService.getProjectPrices() = " + databaseQueryService.getProjectPrices());
     }
 }
