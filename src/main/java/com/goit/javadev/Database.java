@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    private static final String DB_URL = "jdbc:h2:~/test";
+    private static final String DB_URL = "jdbc:h2:~/test;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO";
     private static Database instance;
     private Connection connection;
 
